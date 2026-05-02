@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://masternadel.github.io/sitemap.xml
+Sitemap: https://xiptaka-bot.my.id/sitemap.xml
