@@ -13,7 +13,7 @@
     <!-- SEO: Primary Meta -->
     <title>Xiptaka Bot - Bot WhatsApp Premium #1 | 300+ Fitur Otomatis untuk Grup & Olshop</title>
     <meta name="description"
-        content="Xiptaka Bot adalah bot WhatsApp premium dengan 300+ fitur canggih: manajemen grup otomatis, tools olshop, downloader media, integrasi AI, dan hiburan. Online 24/7, respon cepat, harga mulai 12K/bulan.">
+        content="Xiptaka Bot adalah bot WhatsApp premium dengan 300+ fitur canggih: manajemen grup otomatis, tools olshop, downloader media, integrasi AI, dan hiburan. Online 24/7, respon cepat, harga terjangkau mulai 12K/bulan.">
     <meta name="keywords"
         content="Bot WhatsApp, Xiptaka Bot, Bot Olshop WhatsApp, Manajemen Grup WA, WA Bot Otomatis, bot WA premium, bot WhatsApp Indonesia, bot grup WhatsApp, bot jualan WhatsApp, bot downloader WA">
     <meta name="author" content="Xiptaka">
@@ -41,6 +41,9 @@
 
     <!-- SEO: Alternate language -->
     <link rel="alternate" hreflang="id" href="https://xiptaka-bot.my.id/">
+    
+    <!-- SEO: Related Sites -->
+    <link rel="related" href="https://web.xiptaka-bot.my.id">
 
     <!-- Performance: Preconnect -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -59,13 +62,17 @@
           "@type": "Organization",
           "name": "Xiptaka",
           "url": "https://xiptaka-bot.my.id/",
-          "description": "Penyedia layanan bot WhatsApp premium di Indonesia"
+          "description": "Penyedia layanan bot WhatsApp premium di Indonesia",
+          "sameAs": [
+            "https://web.xiptaka-bot.my.id"
+          ]
         }, {
           "@type": "SoftwareApplication",
           "name": "Xiptaka Bot",
           "applicationCategory": "BusinessApplication",
           "operatingSystem": "WhatsApp",
           "description": "Bot WhatsApp premium dengan 300+ fitur untuk manajemen grup, olshop, dan hiburan.",
+          "url": "https://xiptaka-bot.my.id/",
           "offers": [{
               "@type": "Offer",
               "name": "Standar",
@@ -94,7 +101,7 @@
               "name": "Apa itu Xiptaka Bot?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Xiptaka Bot adalah bot WhatsApp premium yang menyediakan 300+ fitur canggih untuk manajemen grup, tools olshop, downloader media, integrasi AI, dan hiburan. Bot ini aktif 24/7 dan dirancang untuk mempermudah pengelolaan grup WhatsApp."
+                "text": "Xiptaka Bot adalah bot WhatsApp premium yang menyediakan 300+ fitur canggih untuk manajemen grup, tools olshop, downloader media, integrasi AI, dan hiburan. Bot ini aktif 24/7 dan dirancang untuk mempermudah pengelolaan grup WhatsApp Anda."
               }
             },
             {
@@ -311,6 +318,24 @@
             box-shadow: var(--main-shadow) !important;
         }
 
+        /* Footer Links */
+        .footer-link {
+            display: inline-block;
+            margin: 0.25rem 0.5rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid var(--text-dark);
+            background-color: #fff;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .footer-link:hover {
+            background-color: var(--primary);
+            text-decoration: none;
+        }
+
         /* Penyesuaian Mobile Khusus */
         @media (max-width: 768px) {
             h1 {
@@ -336,6 +361,12 @@
 
             #Hero {
                 padding: 60px 0;
+            }
+
+            .footer-link {
+                display: block;
+                margin: 0.5rem 0;
+                width: 100%;
             }
         }
 
@@ -608,11 +639,17 @@
     <footer class="container py-4 mt-5" style="border-top: var(--main-border);" role="contentinfo">
         <div class="row text-center">
             <div class="col-12">
-                <p class="fw-bold mb-1">&copy; 2024 Xiptaka — Bot WhatsApp Premium Indonesia</p>
-                <p class="mb-0">
-                    Kontak:
-                    <a href="https://wa.me/6285xxxxxxxxx" rel="noopener noreferrer" target="_blank"
-                        aria-label="Hubungi Xiptaka via WhatsApp (buka di tab baru)">WhatsApp</a>
+                <p class="fw-bold mb-3">&copy; 2024-2026 Xiptaka — Bot WhatsApp Premium Indonesia</p>
+                <div class="mb-3">
+                    <a href="https://web.xiptaka-bot.my.id" class="footer-link" rel="external" target="_blank" aria-label="Kunjungi portal web Xiptaka Bot (buka di tab baru)">
+                        <i class="bi bi-globe" aria-hidden="true"></i> Portal Web
+                    </a>
+                    <a href="https://wa.me/6285xxxxxxxxx" class="footer-link" rel="noopener noreferrer" target="_blank" aria-label="Hubungi Xiptaka via WhatsApp (buka di tab baru)">
+                        <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
+                    </a>
+                </div>
+                <p class="mb-0 small">
+                    Xiptaka Bot - Solusi Otomasi WhatsApp Terdepan di Indonesia
                 </p>
             </div>
         </div>
